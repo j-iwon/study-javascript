@@ -18,5 +18,5 @@
 
 // 삼항 연산자 (?:)
 // 조건식 ? 참 : 거짓
-let check = 10 > 11;
-console.log(check ? 10 : 11);
+// let check = 10 > 11;
+// console.log(check ? 10 : 11);

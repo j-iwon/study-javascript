@@ -1,0 +1,23 @@
+/* transform : element를 변경시킬 때 사용한다. 위치이동, 회전, 크기 등 */
+/* translate : element를 이동시킬 때 사용한다. translate(x축, y축) */
+span{
+    transform : translate(0, 100px); 
+    /* translate, scale, rotate 등이 transform 내에 사용된다.
+}
+
+/* transition : element의 css 속성을 변경할 때, 움직임이나 애니매이션 속도, 반복 횟수, 조절 등을 할 수 있다 */
+
+div{
+	width:100px;
+    height:100px;
+	background : red ;
+    opacity : 1 ;
+    transition : opacity 4s
+    /* transition으로 opacity를 4초에 걸쳐 변화시킨다 */
+}
+
+/* hover : 마우스를 올렸을 때에만 적용 */
+div:hover{
+	opacity : 0
+    /* 투명도를 0으로 맞춰서 마우스를 올렸을 때 사라지게 하는 효과 */
+}
